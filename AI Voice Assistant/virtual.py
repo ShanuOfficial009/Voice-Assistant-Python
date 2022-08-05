@@ -13,7 +13,7 @@ import requests
 import subprocess
 
 
-print('Loading your AI personal assistant which will assist you to work without moving - Madmax Made by Aniket, Shanu and Team')
+print('Loading your AI personal assistant which will assist you to work without moving - Madmax Made by Shanu')
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -56,7 +56,7 @@ def takeCommand():
         return statement
 
 
-speak("Loading your AI personal assistant which will assist you to work without moving - Madmax made by-Aniket and team")
+speak("Loading your AI personal assistant which will assist you to work without moving - Madmax made by-Shanu")
 wishMe()
 
 
@@ -98,8 +98,8 @@ if __name__ == '__main__':
                   'in different cities , get top headline news from times of india and you can ask me computational or geographical questions too!')
 
         elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
-            speak("I was built by Aniket in 2022 for semester 4 project")
-            print("I was built by Aniket in 2022 for semester 4 project")
+            speak("I was built by Shanu in 2022 for semester 4 project")
+            print("I was built by Shanu in 2022 for semester 4 project")
 
         elif "open stackoverflow" in statement:
             webbrowser.open_new_tab("https://stackoverflow.com/login")
